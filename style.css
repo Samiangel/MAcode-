@@ -1,0 +1,1644 @@
+@import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box ;
+ }
+ .header  {
+   width: 150px;
+   height: 150px;
+   position: absolute ;
+   margin: -17rem 1rem;
+   padding: 0;
+   mix-blend-mode: multiply;
+ }
+ body {
+     background : url(Background.png);
+     background-size: contain;
+     max-width: 1800px;
+ }
+ .amiri {
+   position :absolute ;
+   width: 600px;
+   height: 600px;
+   margin:-30rem 62rem ;
+   -webkit-animation: zu slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ } 
+
+ @-webkit-keyframes slide-left {
+   0% {
+     -webkit-transform: translateX(0);
+             transform: translateX(0);
+   }
+   100% {
+     -webkit-transform: translateX(-100px);
+             transform: translateX(-100px);
+   }
+ }
+ @keyframes slide-left {
+   0% {
+     -webkit-transform: translateX(0);
+             transform: translateX(0);
+   }
+   100% {
+     -webkit-transform: translateX(-100px);
+             transform: translateX(-100px);
+   }
+ }
+
+
+  h3 {
+   font-family:'TT Norms Pro', sans-serif ;
+   position: relative;
+   margin:17rem 30rem ;
+   font-size: 100px;
+   font-weight: 400;
+   letter-spacing: 15px ;
+ }
+
+ h6 {
+   font-family: 'TT Norms Pro', sans-serif ;
+   position: absolute ;
+   margin:-18rem 29rem;
+   font-size: 100px;
+   letter-spacing:normal ;
+   white-space: nowrap;
+ }
+ button {
+   position: absolute ;
+   font-size:15px;
+   margin: -8rem 29rem;
+   padding:0.6em 4em;
+   border-radius: 1em;
+   background: #f5f5f5  ;
+   text-align: center ;
+   border: none;
+   outline: none ;
+   letter-spacing:normal ;
+ }
+ .btn {
+   font-family: 'TT Norms Pro', sans-serif;
+   position:absolute ;
+   font-size : 15px;
+   margin: -8rem 45rem;
+   padding: 0.6em 3em;
+   border-radius: 1em;
+   text-align :center ;
+   background:#f5f5f5 ;
+   letter-spacing:normal ;
+   white-space: nowrap;
+ }
+ .products {
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  margin: 35rem 42rem;
+  padding: 25px;
+ }
+ .products .product {
+  flex: 0 0 60%; 
+  margin: 2px;
+ }
+ .products .product img {
+  width: 100%;
+  height: auto;
+  display: block;
+   margin: 1rem 25rem;
+ }
+ section h1 {
+   font-family: 'TT Norms Pro', sans-serif;
+   font-size: 39px ;
+   margin: -37rem  -40rem;
+   padding:0 ;
+ }
+ section p {
+   font-family: 'TT Norms Pro', sans-serif;
+   font-size: 40px ;
+   margin: 38rem  0 ;
+   margin-left:-49rem;
+   padding: 0 9rem;
+ }
+ .article {
+   width: 250px ;
+   height: 900px;
+   padding: 30rem 0;
+   max-width : 1300px;
+ }
+ .card {
+   height:515px;
+   width: 300px;
+   border: 2px solid #ccc;
+   border-radius : 10px;
+   margin:-18rem 20rem 9rem  ;
+   margin-top:-4rem ;
+   padding:0  ;
+   text-align:center ;
+   background: white ;
+ }
+ .card img{
+   position: absolute ;
+   display: block ;
+   cursor:pointer ;
+   width: 300px;
+   height: 250px;
+   margin:2rem 0 20rem 0 ;
+   padding: 0 3rem 0 3rem;
+ }
+ .card h5 {
+   font-family: 'TT Norms Pro', sans-serif;
+   margin:20rem 0 10rem 0;
+   padding:0 5rem;
+   font-size: 2em;
+ }
+
+ .buy-btn {
+   text-decoration: none ;
+   background: blue;
+   color:white ;
+   padding: 1rem 5rem;
+   border-radius: 20px;
+   margin:-9rem -3.7rem 5rem;
+   top: 184rem;
+ }
+ .card2 {
+   height:515px;
+   width: 300px;
+   border: 2px solid #ccc;
+   border-radius : 10px;
+   margin:-12rem 49rem 8rem  ;
+   margin-top:-41rem;
+   padding:0  ;
+   text-align:center ;
+   background: white ;
+ }
+ .card2 img{
+   position: absolute ;
+   display: block ;
+   cursor:pointer ;
+   width: 300px;
+   height: 250px;
+   margin:2rem 0 20rem 0 ;
+   padding: 0 3rem 0 3rem;
+ }
+ .card2 h5 {
+   font-family: 'TT Norms Pro', sans-serif;
+   margin:20rem 0 10rem 0;
+   padding:0 5rem;
+   font-size: 2em;
+ }
+ .card3 {
+   height:515px;
+   width: 300px;
+   border: 2px solid #ccc;
+   border-radius : 10px;
+   margin:-12rem 80rem 8rem  ;
+   margin-top:-40rem;
+   padding:0  ;
+   text-align:center ;
+   background: white ;
+ }
+ .card3 img{
+   position: absolute ;
+   display: block ;
+   cursor:pointer ;
+   width: 300px;
+   height: 250px;
+   margin:2rem 0 20rem 0 ;
+   padding: 0 3rem 0 3rem;
+ }
+ .card3 h5 {
+   font-family: 'TT Norms Pro', sans-serif;
+   margin:20rem 0 10rem 0;
+   padding:0 5rem;
+   font-size: 2em;
+ }
+ article h6  {
+   font-family: 'TT Norms Pro', sans-serif;
+   font-size: 30px ;
+   text-align: center ;
+   margin:-10rem 38rem 30rem;
+   padding:0 10rem;
+   letter-spacing: 10px ;
+   white-space: nowrap;
+ }
+  h4 {
+   font-family : 'TT Norms Pro', sans-serif ;
+   font-size: 1.3em ;
+   text-align:center ;
+   margin-left: 100%;
+   margin: 20px 0;
+   padding:0 1rem;
+ }
+ footer a{
+ position :relative ;
+ margin: 10px ;
+ padding:1rem 1rem ;
+ justify-content: space-evenly ;
+ }
+@media (max-width: 319px) {
+  body {
+    background: url(Background.png);
+  }
+}
+
+
+  @media  (min-width: 320px)   {
+    body {
+      background: url(Background.png);
+      width: 320px;
+    }
+    .header {
+      width: 80px;
+      height: 80px;
+      margin: -1rem 1rem;
+      margin-top: 1rem;
+    }
+    .amiri {
+      width: 300px;
+      height: 300px;
+      margin:  29rem;
+      margin-top: 11rem;
+      padding: 0;
+    }
+    h3 {
+       font-family:'TT Norms Pro', sans-serif ;
+      position: absolute;
+       margin: 17rem 8rem;
+       font-size: 3em;
+       font-weight: 400;
+       letter-spacing: 12px ;
+     }
+
+      h6 {
+       font-family: 'TT Norms Pro', sans-serif ;
+       position: absolute;
+       margin: 20rem  8rem;
+       font-size: 3.1em;
+       letter-spacing:normal ;
+       white-space: nowrap;
+     }
+     button {
+      font-size:0.5em;
+       margin: 25rem  8rem;
+       padding:0.5em 3em;
+       border-radius: 1em;
+       background: #f5f5f5  ;
+       text-align: center ;
+       border: none;
+       outline: none ;
+       white-space: nowrap;
+     }
+     .btn {
+       font-family: 'TT Norms Pro', sans-serif;
+       font-size : 0.5em;
+       margin:25rem 16rem;
+       padding: 0.5em 3em;
+       border-radius: 1em;
+       text-align :center ;
+       background:#f5f5f5 ;
+       letter-spacing:normal ;
+       white-space: nowrap;
+     }
+     .products {
+      flex-wrap: wrap;
+      width: 300px;
+      height: 300px;
+      margin: 13rem 13rem;
+      padding: 20px;
+     }
+     .products .product {
+      flex: 0 0 70%; 
+      margin: 9px;
+     }
+     .products .product img {
+      width: 100%;
+      height: auto;
+      margin-top: 32rem ;
+      margin-bottom: 40rem;
+      margin-left: 14rem;
+     }
+     section h1 {
+       font-family: 'TT Norms Pro', sans-serif;
+       font-size: 1em ;
+       margin: -53rem -13rem ;
+       padding: 0 1rem;
+     }
+     section p {
+       font-family: 'TT Norms Pro', sans-serif;
+       font-size: 1em ;
+       margin:54rem  -5rem ;
+       margin-left: -18rem;
+       padding: 0 6rem;
+     }
+     .article {
+       width: 250px ;
+       height: 900px;
+       padding: 30rem 0;
+       max-width : 1300px;
+     }
+     .card {
+       height:500px;
+       width: 225px;
+       border: 2px solid #ccc;
+       border-radius : 10px;
+       margin:57rem 0.5rem 9rem ;
+       padding:3rem ;
+       text-align:center ;
+       background: white ;
+     }
+     .card img{
+       position: absolute ;
+       display: block ;
+       cursor:pointer ;
+       width: 200px;
+       height: 200px;
+       margin:-1.8rem -2.3rem;
+       padding: 0 1rem 0 1rem;
+     }
+     .card h5 {
+       font-family: 'TT Norms Pro', sans-serif;
+       margin:17rem -3rem;
+       padding:0 1.9rem;
+       font-size: 2em;
+     }
+
+     .buy-btn {
+       text-decoration: none ;
+       background: blue;
+       color:white ;
+       padding: 1rem 3rem;
+       border-radius: 20px;
+       margin:-9rem -3rem 6rem;
+       top: 127rem;
+     }
+     .card2 {
+       height:500px;
+       width: 225px;
+       border: 2px solid #ccc;
+       border-radius : 10px;
+       margin:-19rem 15.6rem 8rem  ;
+       margin-top:-40rem;
+       padding:0  ;
+       text-align:center ;
+       background: white ;
+     }
+     .card2 img{
+       position: absolute ;
+       display: block ;
+       cursor:pointer ;
+       width: 200px;
+       height: 200px;
+       margin:2rem 1.1rem ;
+       padding: 0 1rem 0 1rem;
+     }
+     .card2 h5 {
+       font-family: 'TT Norms Pro', sans-serif;
+       margin:20rem 0 10rem 0;
+       padding:0 3rem;
+       font-size: 2em;
+     }
+     .card3 {
+       height:500px;
+       width: 225px;
+       border: 2px solid #ccc;
+       border-radius : 10px;
+       margin:39rem 30.5rem 8rem  ;
+       margin-top: -39.5rem;
+       padding:0  ;
+       text-align:center ;
+       background: white ;
+     }
+     .card3 img{
+       position: absolute ;
+       display: block ;
+       cursor:pointer ;
+       width: 200px;
+       height: 200px;
+       margin:2rem 1rem ;
+       padding: 0 1rem 0 1rem;
+     }
+     .card3 h5 {
+       font-family: 'TT Norms Pro', sans-serif;
+       margin:20rem 0.1rem ;
+       padding:0 3rem;
+       font-size: 2em;
+     }
+     article h6  {
+       font-family: 'TT Norms Pro', sans-serif;
+       font-size: 1em ;
+       text-align: center ;
+       margin:-5rem 6.5rem ;
+       padding:0 10rem;
+       letter-spacing: 10px ;
+       white-space: nowrap;
+     }
+      h4 {
+       font-family : 'TT Norms Pro', sans-serif ;
+       font-size: 1.3em ;
+       text-align:center ;
+       margin-left: 100%;
+       margin: 1rem 0;
+       padding:0 1rem;
+     }
+     footer a{
+     position :relative ;
+     margin: 10px ;
+     padding:1rem 1rem ;
+     justify-content: space-evenly ;
+     }
+  }
+
+
+@media (min-width: 768px ) {
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+  body {
+    background : url(Background.png);
+    background-size: contian;
+  }
+.header  {
+  width: 150px;
+  height: 150px;
+  position: absolute ;
+  margin: 0.1rem 0 1rem;
+  padding: 0;
+  mix-blend-mode: multiply;
+}
+
+.amiri {
+  position :absolute ;
+  width: 500px;
+  height: 500px;
+  margin:7rem 36rem ;
+}
+h3 {
+  font-family:'TT Norms Pro', sans-serif ;
+  position :absolute ;
+  margin:14rem 10rem ;
+  font-size: 59px;
+  font-weight: 400;
+  letter-spacing: 15px ;
+}
+
+h6 {
+  font-family: 'TT Norms Pro', sans-serif ;
+  position: absolute ;
+  margin:18rem 10rem;
+  font-size: 59px;
+  letter-spacing:normal ;
+}
+button {
+  position: absolute ;
+  font-size:15px;
+  margin: 23rem 7rem;
+  padding:0.6em 2em;
+  border-radius: 1em;
+  background: #f5f5f5  ;
+  text-align: center ;
+  border: none;
+  outline: none ;
+  letter-spacing:normal ;
+}
+.btn {
+  font-family: 'TT Norms Pro', sans-serif;
+  position:absolute ;
+  font-size : 15px;
+  margin: 23rem 17rem;
+  padding: 0.6em 2em;
+  border-radius: 1em;
+  text-align :center ;
+  background:#f5f5f5 ;
+  letter-spacing:normal ;
+  white-space: nowrap ;
+}
+   .products {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 40rem 15rem;
+    padding: 25px;
+   }
+   .products .product {
+    flex: 0 0 90%; 
+    margin: 17px;
+   }
+   .products .product img {
+    width: 140%;
+    height: auto;
+    margin-top: 8rem ;
+    margin-bottom: 18rem;
+    margin-left: 23rem;
+   }
+section h1 {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 30px ;
+  margin: -38rem  -11rem;
+  padding:0  ;
+}
+section p {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 20px ;
+  margin: 38rem  0 ;
+  margin-left:-11rem;
+  padding:1rem 0;
+}
+.article {
+  width: 250px ;
+  height: 700px;
+  padding: 30rem 0;
+  max-width : 1300px;
+}
+.card {
+  height:510px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius : 10px;
+  margin:-12rem 3rem 8rem  ;
+  margin-top:-12rem ;
+  padding:0  ;
+  text-align:center ;
+  background: white ;
+}
+.card img{
+  position: absolute ;
+  display: block ;
+  cursor:pointer ;
+  width: 300px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+}
+
+.buy-btn {
+  text-decoration: none ;
+  background: blue;
+  color:white ;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  margin:-9rem -3.7rem 5rem;
+  top: 125rem;
+}
+.card2 {
+  height:510px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius : 10px;
+  margin:-12rem 25rem 8rem  ;
+  margin-top:-40rem;
+  padding:0  ;
+  text-align:center ;
+  background: white ;
+}
+.card2 img{
+  position: absolute ;
+  display: block ;
+  cursor:pointer ;
+  width: 300px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card2 h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+}
+.card3 {
+  height:510px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius : 10px;
+  margin:-12rem 47rem 8rem  ;
+  margin-top:-40rem;
+  padding:0  ;
+  text-align:center ;
+  background: white ;
+}
+.card3 img{
+  position: absolute ;
+  display: block ;
+  cursor:pointer ;
+  width: 300px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card3 h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+}
+article h6  {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 22px ;
+  text-align: center ;
+  margin:-6rem 2rem 10rem 19rem;
+  padding:0 10rem;
+  letter-spacing: 10px ;
+  white-space: nowrap ;
+}
+ h4 {
+  font-family : 'TT Norms Pro', sans-serif ;
+  font-size: 1.3em ;
+  text-align:center ;
+  margin-left: 100%;
+  margin: 18px 0;
+  padding:0 1rem;
+}
+ footer a{
+position :relative ;
+margin: 10px ;
+padding:1rem 1rem ;
+justify-content: space-evenly ;
+ }
+ } 
+@media (min-width: 1024px) {
+  .card  {
+    margin: -11rem 1rem ;
+  }
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 125rem;
+  }
+  .card2 {
+    margin: -32rem 22rem;
+  }
+  .card3 {
+    margin: -32rem 43rem;
+  }
+  article h6 {
+    margin: -5rem 13rem;
+  }
+  h4 {
+    margin-left: 1rem;
+    margin-top: 37rem ;
+  }
+ .footer a {
+   position: relative;
+   margin-right: 17rem;
+ }
+}
+@media (min-width: 1280px) {
+  body {
+    background: url(Background.png);
+    background-size: contain;
+  }
+.amiri {
+  margin: 5rem 46rem;
+}
+h3 {
+  font-size: 60px;
+  margin: 17rem 18rem;
+}
+h6  {
+  font-size: 60px;
+  margin: 21rem 18rem;
+}
+button {
+  margin: 27rem 27rem;
+}
+.btn {
+  margin: 27rem 16rem;
+}
+.products .product img {
+  width: 450px;
+  height: 450px;
+  margin: 9rem 28rem;
+}
+section h1 {
+  font-size: 30px;
+  margin: -38rem -10rem;
+}
+section p {
+  font-size: 30px;
+  margin: 40rem -10rem;
+  padding: -5rem -8rem;
+}
+.card {
+  height:550px;
+  width: 360px;
+  margin:-8rem  4rem  ;
+  margin-top: -6rem;
+}
+.card img{
+  width: 350px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+}
+
+.buy-btn {
+  text-decoration: none ;
+  background: blue;
+  color:white ;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  margin:-9rem -3.7rem 5rem;
+  top: 130rem;
+}
+.card2 {
+  height:550px;
+  width: 360px;
+  margin:-10rem 28.5rem 8rem  ;
+  margin-top:-34rem;
+  padding:0  ;
+  text-align:center ;
+  background: white ;
+}
+.card2 img{
+  position: absolute ;
+  display: block ;
+  cursor:pointer ;
+  width: 350px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card2 h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+}
+.card3 {
+  height:550px;
+  width: 360px;
+  margin:-50rem 53rem 14rem  ;
+  margin-top:-42rem;
+}
+.card3 img{
+  position: absolute ;
+  display: block ;
+  cursor:pointer ;
+  width: 350px;
+  height: 250px;
+  margin:2rem 0 20rem 0 ;
+  padding: 0 3rem 0 3rem;
+}
+.card3 h5 {
+  font-family: 'TT Norms Pro', sans-serif;
+  margin:20rem 0 10rem 0;
+  padding:0 5rem;
+  font-size: 2em;
+  white-space: nowarp;
+}
+article h6  {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 39px ;
+  text-align: center ;
+  margin:-5rem 18rem ;
+  padding:0 10rem;
+  letter-spacing: 10px ;
+  white-space: nowrap;
+}
+  h4 {
+    margin-left: 1rem;
+    margin-top: -3rem ;
+  }
+ .footer a {
+   position: relative;
+   margin-right: 17rem;
+ }
+}
+@media (min-width: 1366px) {
+  .amiri {
+    margin: 5rem 46rem;
+  }
+  h3 {
+    font-size: 60px;
+    margin: 17rem 18rem;
+  }
+  h6  {
+    font-size: 60px;
+    margin: 21rem 18rem;
+  }
+  button {
+    margin: 27rem 27rem;
+  }
+  .btn {
+    margin: 27rem 16rem;
+  }
+  .products .product img {
+    width: 450px;
+    height: 450px;
+    margin: 14rem 35rem;
+  }
+  section h1 {
+    font-size: 30px;
+    margin: -43rem -10rem;
+  }
+  section p {
+    font-size: 30px;
+    margin: 44rem -10rem;
+    padding: -5rem -8rem;
+  }
+  .card {
+    height:550px;
+    width: 360px;
+    margin:-12rem  4rem  ;
+    margin-top: 39rem;
+  }
+  .card img{
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 138rem;
+  }
+  .card2 {
+    height:550px;
+    width: 360px;
+    margin:-10rem 31rem 8rem  ;
+    margin-top:-34rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:550px;
+    width: 360px;
+    margin:-50rem 58rem 14rem  ;
+    margin-top:-41.9rem;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-5rem 20rem ;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+    h4 {
+      margin-left: 1rem;
+      margin-top: -3rem ;
+    }
+   .footer a {
+     position: relative;
+     margin-right: 17rem;
+   }
+}
+@media (min-width: 1440px) {
+  .card {
+    height:550px;
+    width: 360px;
+    margin:-12rem  4rem  ;
+    margin-top: 47rem;
+  }
+  .card img{
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 144rem;
+  }
+  .card2 {
+    height:550px;
+    width: 360px;
+    margin:-10rem 33.5rem 8rem  ;
+    margin-top:-34.5rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:550px;
+    width: 360px;
+    margin:-50rem 62rem 14rem  ;
+    margin-top:-42.2rem;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-7rem 20rem ;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+    h4 {
+      margin-left: 1rem;
+      margin-top: -3rem ;
+    }
+   .footer a {
+     position: relative;
+     margin-right: 17rem;
+   }
+}
+@media (min-width: 1536px) {
+   .card {
+    height:550px;
+    width: 360px;
+    margin:-12rem  8rem  ;
+    margin-top: 57rem;
+  }
+  .card img{
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 154rem;
+  }
+  .card2 {
+    height:550px;
+    width: 360px;
+    margin:-10rem 37rem 8rem  ;
+    margin-top:-34rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:550px;
+    width: 360px;
+    margin:-50rem 65rem 14rem  ;
+    margin-top:-43rem;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-7rem 25rem ;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+  h4 {
+      margin-left: 1rem;
+      margin-top: -3rem ;
+    }
+  .footer a {
+     position: relative;
+     margin-right: 17rem;
+   }
+}
+@media (min-width: 1600px) {
+  .amiri {
+    margin: 14rem 60rem;
+  }
+  h3 {
+   font-size: 80px;
+   margin: 21rem 34rem;
+  }
+  h6 {
+    font-size: 80px;
+    margin: 26rem 33rem;
+  }
+  button {
+    margin: 33rem 43rem;
+  }
+  .btn {
+    margin: 33rem 33rem;
+  }
+  .products .product img {
+    margin: 26rem 45rem;
+    width: 500px;
+    height: 500px;
+  }
+  section h1 {
+    font-size: 30px;
+    margin: -57rem -8rem;
+  }
+  section p {
+    font-size: 30px;
+    margin: 59rem -9rem;
+    padding: 0 0.8rem;
+  }
+  .card {
+    height:550px;
+    width: 360px;
+    margin:-2rem  7rem  ;
+    margin-top: 68rem;
+  }
+  .card img{
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 166rem;
+  }
+  .card2 {
+    height:550px;
+    width: 360px;
+    margin:-10rem 38rem 8rem  ;
+    margin-top:-34rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:550px;
+    width: 360px;
+    margin:-50rem 69rem 14rem  ;
+    margin-top:-42.1rem;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-10rem 29rem 29rem;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+  h4 {
+    margin-left: 1rem;
+    margin-top: -2rem ;
+  }
+  .footer a {
+   position: relative;
+   margin: 17rem;
+  }
+}
+@media  (min-width: 1892px) {
+  .header {
+    width: 190px;
+    height: 190px;
+    margin: 2rem 3rem;
+  }
+  body {
+    background: url(Background.png);
+    background-size: 100%;
+  }
+  .amiri {
+    width:600px;
+    height: 600px;
+    margin:16rem 59rem;
+  }
+  h3 {
+    font-family:'TT Norms Pro', sans-serif ;
+    margin:23rem 24rem ;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 19px ;
+  }
+
+  h6 {
+    font-family: 'TT Norms Pro', sans-serif ;
+    margin:30rem 24rem;
+    font-size: 100px;
+    letter-spacing:normal ;
+    white-space: nowrap;
+  }
+  button {
+    font-size:19px;
+    margin: 39rem 38rem;
+    padding:0.5em 3em;
+    border-radius: 1em;
+    background: #f5f5f5  ;
+    text-align: center ;
+    border: none;
+    outline: none ;
+    letter-spacing:normal ;
+  }
+  .btn {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size : 19px;
+    margin: 39rem 24rem;
+    padding: 0.5em 3em;
+    border-radius: 1em;
+    text-align :center ;
+    background:#f5f5f5 ;
+    letter-spacing:normal ;
+    white-space: nowrap;
+  }
+  .products {
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 70rem 35rem;
+    padding: 25px;
+   }
+   .products .product {
+    flex: 0 0 90%; 
+    margin: 17px;
+   }
+   .products .product img {
+    width: 140%;
+    height: auto;
+    margin-top: 8rem ;
+    margin-bottom: 18rem;
+    margin-left: 35rem;
+   }
+  section h1 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 50px ;
+    margin: -53rem  -33rem;
+    padding:0 ;
+  }
+  section p  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 30px ;
+    margin: 54rem  -1rem ;
+    margin-left:-33rem;
+    white-space: nowarp;
+  }
+  .card {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-2rem  15rem  ;
+    margin-top: -20rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 190rem;
+  }
+  .card2 {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-12rem 46rem 8rem  ;
+    margin-top:-33rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-12rem 77rem 14rem  ;
+    margin-top:-41rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-12rem 34rem 29rem;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+  h4 {
+    margin-left: 1rem;
+    margin-top: -2rem ;
+  }
+  .footer a {
+   position: relative;
+   margin-right: 17rem;
+  }
+}
+@media (min-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 190px;
+    height: 190px;
+    margin: 2rem 3rem;
+  }
+  body {
+    background: url(Background.png);
+    background-size: contain;
+  }
+  .amiri {
+    width:600px;
+    height: 600px;
+    margin:16rem 59rem;
+  }
+  h3 {
+    font-family:'TT Norms Pro', sans-serif ;
+    margin:23rem 24rem ;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 19px ;
+  }
+
+  h6 {
+    font-family: 'TT Norms Pro', sans-serif ;
+    margin:30rem 24rem;
+    font-size: 100px;
+    letter-spacing:normal ;
+    white-space: nowrap;
+  }
+  button {
+    font-size:19px;
+    margin: 39rem 38rem;
+    padding:0.5em 3em;
+    border-radius: 1em;
+    background: #f5f5f5  ;
+    text-align: center ;
+    border: none;
+    outline: none ;
+    letter-spacing:normal ;
+  }
+  .btn {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size : 19px;
+    margin: 39rem 24rem;
+    padding: 0.5em 3em;
+    border-radius: 1em;
+    text-align :center ;
+    background:#f5f5f5 ;
+    letter-spacing:normal ;
+    white-space: nowrap;
+  }
+  .products {
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 70rem 35rem;
+    padding: 25px;
+   }
+   .products .product {
+    flex: 0 0 90%; 
+    margin: 17px;
+   }
+   .products .product img {
+    width: 140%;
+    height: auto;
+    margin-top: 8rem ;
+    margin-bottom: 18rem;
+    margin-left: 35rem;
+   }
+  section h1 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 50px ;
+    margin: -53rem  -33rem;
+    padding:0 ;
+  }
+  section p  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 30px ;
+    margin: 54rem  -1rem ;
+    margin-left:-33rem;
+    white-space: nowarp;
+  }
+  .card {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-12rem  15rem  ;
+    margin-top: -19rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+
+  .buy-btn {
+    text-decoration: none ;
+    background: blue;
+    color:white ;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    margin:-9rem -3.7rem 5rem;
+    top: 190rem;
+  }
+  .card2 {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-12rem 46rem 8rem  ;
+    margin-top:-33rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card2 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card2 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+  }
+  .card3 {
+    height:530px;
+    width: 360px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin:-12rem 77rem 14rem  ;
+    margin-top:-41rem;
+    padding:0  ;
+    text-align:center ;
+    background: white ;
+  }
+  .card3 img{
+    position: absolute ;
+    display: block ;
+    cursor:pointer ;
+    width: 350px;
+    height: 250px;
+    margin:2rem 0 20rem 0 ;
+    padding: 0 3rem 0 3rem;
+  }
+  .card3 h5 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin:20rem 0 10rem 0;
+    padding:0 5rem;
+    font-size: 2em;
+    white-space: nowarp;
+  }
+  article h6  {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 39px ;
+    text-align: center ;
+    margin:-12rem 34rem 29rem;
+    padding:0 10rem;
+    letter-spacing: 10px ;
+    white-space: nowrap;
+  }
+  h4 {
+    margin-left: 1rem;
+    margin-top: -1rem ;
+  }
+  .footer a {
+   position: relative;
+   margin: -1rem ;
+  }
+}
